@@ -24,7 +24,7 @@ config-terraform.sh
 vendor/
 
 **/node_modules/
-package*.json
+
 yarn.lock
 
 builds/

@@ -1,0 +1,20 @@
+{
+  "Records": [
+    {
+      "messageId": "16ad4fcb-ce36-4078-92f1-a6bdea16df62",
+      "receiptHandle": "AQEBwvZDbWADNuHOUiPeV0KVoPahsuiSvyRKEDDEiReGXW/Vy8Ns/gTkuezzbPKWRSTGiy+T/yl1kCZH/CyVOdS/VuRyXXDxeBywPNVrlV1iBxV7xzBzlxSzRUWHRVBcqeZkJs7J6ruCITE0ejPSi2ecAHZ2oEOxjfMEGX4cTkkz8DKUz5MZRbtSQgkQS8LoZnkB0zY7lhUStN/LPxaS+P1LWETI/OkOdHVx3tN+D9DjX+Oe01ya9ywex0RJ/Iryy4iXjG1yr5WI/9TB2G9S4bA2Fdd4a5YV4Ax1YemGCwIWb151QrmWI9LwH9Vy0dfKkTKT5+B53AE2affLO7dzNdAIQyOAGKkAUvTY2Jwldk6vFeeGlja25QSUFx0IXTrhuxmrpOBK8Tag6Uz/E762SPbZWA==",
+      "body": "{\"Origin\":\"AutoScalingGroup\",\"LifecycleHookName\":\"asg-test-lifecycle\",\"Destination\":\"EC2\",\"AccountId\":\"123\",\"RequestId\":\"f47cceb1-1864-49be-a011-fe793379f942\",\"LifecycleTransition\":\"autoscaling:EC2_INSTANCE_TERMINATING\",\"AutoScalingGroupName\":\"runner-graceful-terminate-test-manager2022062816093541810000000b-asg\",\"Service\":\"AWS Auto Scaling\",\"Time\":\"2022-06-28T21:42:37.815Z\",\"EC2InstanceId\":\"i-05682237623265096\",\"LifecycleActionToken\":\"4258b6db-4f45-4663-9236-e4f25590e981\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1656452557851",
+        "SenderId": "AROAVILNIVXZVI4BTIEQO:d906ff6caf1149c38477373dced4976c",
+        "ApproximateFirstReceiveTimestamp": "1656452557858"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "87137e581e67fae303935c8cd37c1e5c",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-west-2:123:graceful-terminate-queue",
+      "awsRegion": "us-west-2"
+    }
+  ]
+}

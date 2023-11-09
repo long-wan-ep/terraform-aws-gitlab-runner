@@ -1,0 +1,21 @@
+{
+  "Records": [
+      {
+          "messageId": "51856d7e-90be-4f56-85e8-1a0d0094ebcf",
+          "receiptHandle": "AQEB2F3EQL3Hz4tm+Txeq7vlVrr7imPoUTzuN/KHQbTLGy/xS0WZjox0xPlI4x0vC+f3eCZS8b61Pnleac0I3bMfxWjWnupgIblMXRSpwC3C116YMdxha/dRBXc0APlpvqyDB3NmHPG2ntqQM+Rn9oJzdEG+3+57T6dDAwA8b+fNEjLpdNl2zjLcCCALJszaTBcrqk9S/jOoDr3cGAvD6FOv6+5/aJ4s0Hup5hTTNMtWqXXP7uQC5Ibxry/i60SSc+p1UYSfAy91N84LTW7VzLFppfLhi3LEEjaHkmL/WwNPLoCe488u07cOpkV5BwZyVk4tEI9LbV9DaDa+0wgMoC5AUeAjltmxpkeel5oMX0fMQjTCnQE2oCwqI7EsP0PuEXQbJ6Ws2uwGfrEwvefI0EHgfw==",
+          "body": "{\"AccountId\":\"123\",\"RequestId\":\"52f31e81-bff7-409c-9913-0fe715d121b9\",\"AutoScalingGroupARN\":\"arn:aws:autoscaling:us-west-2:123:autoScalingGroup:614da339-f917-4c7d-9b71-5e848f9f5110:autoScalingGroupName/lwan-test\",\"AutoScalingGroupName\":\"lwan-test\",\"Service\":\"AWS Auto Scaling\",\"Event\":\"autoscaling:TEST_NOTIFICATION\",\"Time\":\"2022-06-24T18:26:51.403Z\"}",
+          "attributes": {
+              "ApproximateReceiveCount": "6",
+              "AWSTraceHeader": "Root=1-62b601eb-4c1f899cf78f62d90c62c2ee;Sampled=0",
+              "SentTimestamp": "1656095211497",
+              "SenderId": "AROAZN35HEI66AEPD77UC:bea271a22b6c47aeb49a5b88deb66f50",
+              "ApproximateFirstReceiveTimestamp": "1656095211497"
+          },
+          "messageAttributes": {},
+          "md5OfBody": "ef02fb51d13382f3db39a0b341c577c4",
+          "eventSource": "aws:sqs",
+          "eventSourceARN": "arn:aws:sqs:us-west-2:123:lwan-test-sqs",
+          "awsRegion": "us-west-2"
+      }
+  ]
+}
